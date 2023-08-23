@@ -1,34 +1,73 @@
-<!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Formulários</title>
-        </head>
+<html>
+    <head>
+        <title>Meus estudos HTML</title>
+            </head>
                 <body>
-                    <h1>Aula sobre formulários</h1><hr>
+                    <h1 id = "inicio"> HTML Básico.</h1>
+                    <hr>
+                        <h2><b><i>Índice</i></b></h2>
+                            <ul>
+                                <li><a href="#introducao"> Introdução</a></li>
+                                <li><a href="#tags"> Tags</a></li>
+                                <li><a href="#cs"> Client-side</a></li>
+                                <li><a href="#ss"> Server-side</a></li>
+                            </ul>
+                        <h2 id="introducao"> Introdução </h2>
+                        <small><a href="#inicio"><i>(Voltar)</i></a></small>
+                            <p>HTML, sigla para HyperText Markup Language (Linguagem de Marcação de Hipertexto), é a linguagem fundamental para a criação e estruturação de páginas da web. O HTML permite que os navegadores interpretem e exibam 
+                                informações como texto, imagens, links, vídeos e outros elementos multimídia de maneira coerente e organizada. Em resumo, o HTML é a base da web moderna, permitindo a estruturação de conteúdo e o fornecimento de 
+                                informações em um formato que os navegadores podem interpretar e exibir de maneira coerente e organizada.</p>     
+                        
+                        <h2 id="tags"> Tags </h2>
+                        <small><a href="#inicio"><i>(Voltar)</i></a></small>
+                                <ul>
+                                    <li><strong>Head:</strong>
+                                        <p>Contém metadados sobre o documento, como título, codificação e links para estilos e scripts.</p>
+                                        
+                                    </li>
+                                    
+                                    <li><strong>Title:</strong></i>
+                                        <p>Define o título da página exibido na aba ou barra de título do navegador.</p>
+                                    </li>
+                                    
+                                    <li><strong>Link:</strong>
+                                        <p>Liga o documento a folhas de estilo externas.</p>
+                                    </li>
+                                    
+                                    <li><strong>Script:</strong></i>
+                                        <p>Utilizado para adicionar scripts, como JavaScript, para interatividade e funcionalidade.</p>
+                                    </li>
+                                    
+                                    <li><strong>Body:</strong>
+                                        <p>Contém o conteúdo visível da página, como texto, imagens e elementos interativos.</p>
+                                    </li>
+                                    
+                                    <li><strong>H1 a H6:</strong>
+                                        <p>Define títulos de diferentes níveis de importância (1 sendo o de maior nível hieráriquico e 6 sendo o menor).</p>
+                                    </li>
+                                    
+                                    <li><strong>P:</strong>
+                                        <p>Cria um parágrafo de texto.</p>
+                                    </li>
+                                    
+                                    <li><strong>A:</strong>
+                                        <p>Cria links para outras páginas ou recursos.</p>
+                                    </li>
+                                </ul>
 
-                    <!--Aberto formulário com a tag "form"-->
-                    <form name ="singup" onsubmit="alert('Enviei o formulário');" method="post">
-                        Name: <input type="text" name="name"/><br>
-                        Idade: <input type="number" name="age"/><br>
-                        Sexo: <input type="text" name="gender" /><br>
-                        <button type="submit" name="send"></button>
-                    </form>
-                    <!--Action: este atributo especifica para onde os dados do formulário serão enviados após o envio.-->
-                    
-                    <!--Onsubimit: da uma resposta referente ao envio do formulário, progrmável em JS-->
-                    
-                    <!--Method: atributo especifica como os dados do formulário serão enviados para o servidor.
-                            Post: Os dados do formulário são enviados no corpo da solicitação HTTP.
-                            Get: Os dados do formulário são anexados à URL como parâmetros de consulta. É comum para formulários de pesquisa.
-                    -->
-
-                    <!--Name: Um nome para o formulário, usado para identificá-lo no código JavaScript ou no servidor.-->
-
-                    <!--Autocomplete: controla se o navegador deve ou não preencher automaticamente os campos do formulário com valores que o usuário inseriu anteriormente.-->
-                    
-                    <!--Onsubit: Este atributo permite que você especifique um script JavaScript a ser executado quando o formulário for enviado.-->
-                
-                </body>
+                        <p>Essas são algumas delas.</p>
+                        
+                        <h2 id="cs"> Client-side </h2>
+                        <small><a href="#inicio"><i>(Voltar)</i></a></small>
+                                <p>O "client side" em HTML refere-se à parte do processamento que ocorre no navegador do usuário, ou seja, no lado do cliente. No contexto do desenvolvimento web, o client side envolve a manipulação
+                                 e renderização de elementos visuais e interativos diretamente no navegador,  sem a necessidade de enviar solicitações constantes ao servidor. Isso é possível graças à combinação de HTML, CSS e JavaScript.</p>
+                        
+                        <h2 id = "ss"> Server-side</h2>
+                        <small><a href="#inicio"><i>(Voltar)</i></a></small>
+                                <p>O "server-side" em HTML se refere à parte do processamento que ocorre no servidor antes que o conteúdo seja enviado para o 
+                                 navegador do usuário. No contexto do desenvolvimento web, o server-side envolve a geração dinâmica de páginas web com base em 
+                                 solicitações feitas pelos usuários. Isso é realizado por meio de linguagens de programação do lado do servidor, como PHP, Python, 
+                                 Ruby, Java, entre outras.</p>
+                                
+    </body>
 </html>
